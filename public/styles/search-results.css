@@ -20,7 +20,6 @@ body::after {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 #page-search-results a {
@@ -28,17 +27,14 @@ body::after {
   font-weight: bold;
   display: flex;
   align-items: center;
-
 }
 
 #page-search-results a span {
   margin-right: 16px;
-  
   background-image: url('../assets/arrow-left.svg');
   width: 20px;
   height: 24px;
   display: flex;
-
 }
 
 main {
@@ -48,24 +44,19 @@ main {
 main h4 {
   font-weight: normal;
   font-family: Roboto, sans-serif;
-
   margin-bottom: 32px;
-
 }
 
 main .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 24px;
-
 }
 
 main .card h1 {
   margin: 32px 0;
-
   font-size: 36px;
   line-height: 41px;
-
   color: #322153;
   object-fit: cover;
 }
@@ -77,7 +68,6 @@ main .card h3 {
   font-weight: 500;
   font-size: 24px;
   line-height: 34px;
-
   color: var(--primary-color);
 }
 
@@ -85,9 +75,7 @@ main .card p {
   font-size: 16px;
   line-height: 26px;
   color: #6C6C80;
-
 }
-
 
 main img {
   width: 100%;

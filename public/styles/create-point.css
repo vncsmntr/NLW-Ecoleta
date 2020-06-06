@@ -9,7 +9,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 #page-create-point a {
@@ -17,17 +16,14 @@
   font-weight: bold;
   display: flex;
   align-items: center;
-
 }
 
 #page-create-point a span {
   margin-right: 16px;
-  
   background-image: url('../assets/arrow-left.svg');
   width: 20px;
   height: 24px;
   display: flex;
-
 }
 
 form {
@@ -36,7 +32,6 @@ form {
   padding: 64px;
   border-radius: 8px;
   max-width: 730px;
-
 }
 
 form h1 {
@@ -46,17 +41,23 @@ form h1 {
 form fieldset {
   margin-top: 64px;
   border: 0;
-
-} 
+}
 
 form legend {
   margin-bottom: 40px;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 form legend h2 {
   font-size: 24px;
+}
 
+form legend span {
+  font-size: 12px;
+  color: var(--title-color);
 }
 
 form .field {
@@ -70,15 +71,13 @@ form .field-group {
   display: flex;
 }
 
-form input,
-form select {
+form input, form select {
   background-color: #f0f0f0;
   border: 0;
   padding: 16px 24px;
   font-size: 16px;
   outline: none;
   border-radius: 8px;
-
 }
 
 form select {
@@ -92,7 +91,7 @@ form label {
   margin-bottom: 8px;
 }
 
-form .field-group .field + .field {
+form .field-group .field+.field {
   margin-left: 24px;
 }
 
@@ -101,27 +100,22 @@ form button {
   height: 56px;
   background-color: var(--primary-color);
   border-radius: 8px;
-
   color: white;
   font-weight: bold;
   font-size: 16px;
   border: 0;
-
   margin-top: 40px;
   transition: background-color 400ms;
 }
 
 form button:hover {
   background-color: #2fb86e;
-  
 }
 
 .items-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 16px;
-
-
 }
 
 .items-grid li {
@@ -137,7 +131,6 @@ form button:hover {
   justify-content: space-between;
   text-align: center;
   cursor: pointer;
-
 }
 
 .items-grid li span {
@@ -146,7 +139,6 @@ form button:hover {
   display: flex;
   align-items: center;
   color: var(--title-color);
-
 }
 
 .items-grid li.selected {
@@ -154,7 +146,6 @@ form button:hover {
   border: 2px solid #34cb79;
 }
 
-.items-grid li img,
-.items-grid li span {
+.items-grid li img, .items-grid li span {
   pointer-events: none;
 }
