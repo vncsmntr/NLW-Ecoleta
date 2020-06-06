@@ -1,0 +1,23 @@
+{
+  "name": "NLW-Ecoleta",
+  "version": "1.0.0",
+  "description": "Realizado de 01/06/2020 até 07/06/2020",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vncsmntr/NLW-Ecoleta.git"
+  },
+  "keywords": [],
+  "author": "Vinícius Monteiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vncsmntr/NLW-Ecoleta/issues"
+  },
+  "homepage": "https://github.com/vncsmntr/NLW-Ecoleta#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
